@@ -811,3 +811,240 @@ body {
         padding: 5px 10px;
     }
 }
+
+.blog {
+    padding: 80px 0;
+    background: #E7CEE1;
+}
+
+.blog-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.blog-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.blog-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #AC7D70;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(135deg, #AC7D70, #DDAC99);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.blog-tagline {
+    font-size: 1.2rem;
+    color: #666;
+    font-weight: 400;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+.blog-card {
+    background: linear-gradient(135deg, #f8f9fa, #ffffff);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    position: relative;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(172, 125, 112, 0.2);
+    border-color: rgba(172, 125, 112, 0.3);
+}
+
+.blog-image {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 12px 12px 0 0;
+}
+
+.blog-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease;
+    filter: brightness(0.9);
+}
+
+.blog-card:hover .blog-img {
+    transform: scale(1.08);
+    filter: brightness(1);
+}
+
+.blog-date {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    backdrop-filter: blur(10px);
+}
+
+.blog-content {
+    padding: 1rem;
+}
+
+.blog-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-bottom: 0.8rem;
+}
+
+.blog-category {
+    background: #AC7D70;
+    color: white;
+    font-size: 0.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    padding: 2px 6px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.blog-category:hover {
+    background: #DDAC99;
+    transform: scale(1.05);
+}
+
+.blog-post-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.8rem;
+    line-height: 1.3;
+    transition: color 0.3s ease;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.blog-card:hover .blog-post-title {
+    color: #AC7D70;
+}
+
+.blog-excerpt {
+    color: #666;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.btn-blog {
+    width: 100%;
+    padding: 8px 16px;
+    background: linear-gradient(135deg, #AC7D70, #DDAC99);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.btn-blog:hover {
+    background: linear-gradient(135deg, #DDAC99, #AC7D70);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 15px rgba(172, 125, 112, 0.4);
+}
+
+@media (max-width: 768px) {
+    .blog {
+        padding: 60px 0;
+    }
+    
+    .blog-container {
+        padding: 0 1rem;
+    }
+    
+    .blog-header {
+        margin-bottom: 2rem;
+    }
+    
+    .blog-title {
+        font-size: 2.5rem;
+    }
+    
+    .blog-tagline {
+        font-size: 1rem;
+    }
+    
+    .blog-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    
+    .blog-image {
+        height: 180px;
+    }
+    
+    .blog-content {
+        padding: 1rem;
+    }
+    
+    .blog-post-title {
+        font-size: 1.1rem;
+    }
+    
+    .blog-excerpt {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .blog {
+        padding: 40px 0;
+    }
+    
+    .blog-title {
+        font-size: 2rem;
+    }
+    
+    .blog-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .blog-image {
+        height: 160px;
+    }
+    
+    .blog-categories {
+        gap: 0.2rem;
+    }
+    
+    .blog-category {
+        font-size: 0.6rem;
+        padding: 2px 4px;
+    }
+}
