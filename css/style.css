@@ -427,6 +427,31 @@ body {
     font-weight: 600;
 }
 
+.about-button {
+    margin-top: 2rem;
+}
+
+.btn-read-more {
+    padding: 12px 30px;
+    border: 2px solid #AC7D70;
+    border-radius: 25px;
+    background: transparent;
+    color: #AC7D70;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.btn-read-more:hover {
+    background: #AC7D70;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(172, 125, 112, 0.3);
+}
+
 @media (max-width: 1024px) {
     .about-container {
         grid-template-columns: 1fr;
