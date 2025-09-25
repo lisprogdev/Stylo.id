@@ -87,7 +87,7 @@ body {
     gap: 6px;
     padding: 8px 12px;
     text-decoration: none;
-    color: white;
+    color: #333333;
     font-weight: 500;
     transition: all 0.3s ease;
     border-radius: 20px;
@@ -113,7 +113,7 @@ body {
     height: 18px;
     object-fit: contain;
     transition: filter 0.3s ease;
-    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+    filter: brightness(0) saturate(100%) invert(20%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(20%) contrast(100%);
 }
 
 .nav-link:hover .nav-icon {
