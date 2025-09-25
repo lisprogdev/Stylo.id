@@ -38,11 +38,11 @@ body {
     font-weight: 700;
     font-size: 1.2rem;
     color: white;
-    background: rgba(231, 206, 225, 0.1);
+    background: rgba(173, 216, 230, 0.1);
     padding: 6px 14px;
     border-radius: 20px;
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(231, 206, 225, 0.2);
+    border: 1px solid rgba(173, 216, 230, 0.2);
 }
 
 .logo-content {
@@ -63,7 +63,7 @@ body {
     width: 32px;
     height: 32px;
     object-fit: contain;
-    filter: drop-shadow(0 2px 4px rgba(172, 125, 112, 0.3));
+    filter: drop-shadow(0 2px 4px rgba(135, 206, 235, 0.3));
 }
 
 .logo-text {
@@ -87,25 +87,25 @@ body {
     gap: 6px;
     padding: 8px 12px;
     text-decoration: none;
-    color: #333333;
+    color: #4A90A4;
     font-weight: 500;
     transition: all 0.3s ease;
     border-radius: 20px;
-    background: rgba(231, 206, 225, 0.1);
+    background: rgba(173, 216, 230, 0.1);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(231, 206, 225, 0.2);
+    border: 1px solid rgba(173, 216, 230, 0.2);
 }
 
 .nav-link:hover {
-    color: #E7CEE1;
-    background: rgba(231, 206, 225, 0.2);
+    color: #87CEEB;
+    background: rgba(173, 216, 230, 0.2);
     transform: translateY(-1px);
 }
 
 .nav-link.active {
-    color: #E7CEE1;
-    background: rgba(231, 206, 225, 0.3);
-    box-shadow: 0 4px 15px rgba(231, 206, 225, 0.3);
+    color: #87CEEB;
+    background: rgba(173, 216, 230, 0.3);
+    box-shadow: 0 4px 15px rgba(173, 216, 230, 0.3);
 }
 
 .nav-icon {
@@ -113,15 +113,15 @@ body {
     height: 18px;
     object-fit: contain;
     transition: filter 0.3s ease;
-    filter: brightness(0) saturate(100%) invert(20%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(20%) contrast(100%);
+    filter: brightness(0) saturate(100%) invert(50%) sepia(20%) saturate(200%) hue-rotate(180deg) brightness(90%) contrast(100%);
 }
 
 .nav-link:hover .nav-icon {
-    filter: brightness(0) saturate(100%) invert(90%) sepia(8%) saturate(1200%) hue-rotate(315deg) brightness(95%) contrast(85%);
+    filter: brightness(0) saturate(100%) invert(70%) sepia(20%) saturate(200%) hue-rotate(180deg) brightness(120%) contrast(100%);
 }
 
 .nav-link.active .nav-icon {
-    filter: brightness(0) saturate(100%) invert(90%) sepia(8%) saturate(1200%) hue-rotate(315deg) brightness(95%) contrast(85%);
+    filter: brightness(0) saturate(100%) invert(70%) sepia(20%) saturate(200%) hue-rotate(180deg) brightness(120%) contrast(100%);
 }
 
 .hero {
@@ -155,7 +155,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(231, 206, 225, 0.7), rgba(172, 125, 112, 0.5));
+    background: linear-gradient(135deg, rgba(173, 216, 230, 0.7), rgba(135, 206, 235, 0.5));
     z-index: -1;
 }
 
@@ -178,7 +178,7 @@ body {
     margin-bottom: 1.5rem;
     text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
     line-height: 1.2;
-    background: linear-gradient(135deg, #fff, #E7CEE1);
+    background: linear-gradient(135deg, #fff, #87CEEB);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -218,14 +218,14 @@ body {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #AC7D70, #DDAC99);
+    background: linear-gradient(135deg, #4A90A4, #87CEEB);
     color: white;
-    box-shadow: 0 8px 25px rgba(172, 125, 112, 0.4);
+    box-shadow: 0 8px 25px rgba(74, 144, 164, 0.4);
 }
 
 .btn-primary:hover {
     transform: translateY(-3px);
-    box-shadow: 0 12px 35px rgba(172, 125, 112, 0.6);
+    box-shadow: 0 12px 35px rgba(74, 144, 164, 0.6);
 }
 
 .btn-secondary {
@@ -321,7 +321,7 @@ body {
 
 .about {
     padding: 80px 0;
-    background: #E7CEE1;
+    background: #E6F3FF;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -402,10 +402,10 @@ body {
 .about-title {
     font-size: 3rem;
     font-weight: 700;
-    color: #AC7D70;
+    color: #4A90A4;
     margin-bottom: 2rem;
     text-align: left;
-    background: linear-gradient(135deg, #AC7D70, #DDAC99);
+    background: linear-gradient(135deg, #4A90A4, #87CEEB);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -423,7 +423,7 @@ body {
 }
 
 .about-description strong {
-    color: #AC7D70;
+    color: #4A90A4;
     font-weight: 600;
 }
 
@@ -433,10 +433,10 @@ body {
 
 .btn-read-more {
     padding: 12px 30px;
-    border: 2px solid #AC7D70;
+    border: 2px solid #4A90A4;
     border-radius: 25px;
     background: transparent;
-    color: #AC7D70;
+    color: #4A90A4;
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
@@ -446,10 +446,10 @@ body {
 }
 
 .btn-read-more:hover {
-    background: #AC7D70;
+    background: #4A90A4;
     color: white;
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(172, 125, 112, 0.3);
+    box-shadow: 0 8px 20px rgba(74, 144, 164, 0.3);
 }
 
 @media (max-width: 1024px) {
@@ -532,13 +532,13 @@ body {
     align-items: center;
     justify-content: center;
     padding: 20px 0;
-    background: #E7CEE1;
+    background: #E6F3FF;
 }
 
 .divider-line {
     width: 100px;
     height: 2px;
-    background: linear-gradient(135deg, #AC7D70, #DDAC99);
+    background: linear-gradient(135deg, #4A90A4, #87CEEB);
     border-radius: 1px;
 }
 
@@ -549,7 +549,7 @@ body {
     padding: 15px;
     border-radius: 50%;
     backdrop-filter: blur(10px);
-    border: 2px solid rgba(172, 125, 112, 0.2);
+    border: 2px solid rgba(74, 144, 164, 0.2);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -559,7 +559,7 @@ body {
     width: 30px;
     height: 30px;
     object-fit: contain;
-    filter: brightness(0) saturate(100%) invert(67%) sepia(8%) saturate(1200%) hue-rotate(315deg) brightness(95%) contrast(85%);
+    filter: brightness(0) saturate(100%) invert(50%) sepia(20%) saturate(200%) hue-rotate(180deg) brightness(90%) contrast(100%);
 }
 
 @keyframes pulse {
@@ -575,7 +575,7 @@ body {
 
 .products {
     padding: 80px 0;
-    background: #E7CEE1;
+    background: #E6F3FF;
 }
 
 .products-container {
@@ -592,9 +592,9 @@ body {
 .products-title {
     font-size: 3rem;
     font-weight: 700;
-    color: #AC7D70;
+    color: #4A90A4;
     margin-bottom: 0.5rem;
-    background: linear-gradient(135deg, #AC7D70, #DDAC99);
+    background: linear-gradient(135deg, #4A90A4, #87CEEB);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -647,13 +647,13 @@ body {
     position: absolute;
     top: 15px;
     right: 15px;
-    background: linear-gradient(135deg, #AC7D70, #DDAC99);
+    background: linear-gradient(135deg, #4A90A4, #87CEEB);
     color: white;
     padding: 8px 16px;
     border-radius: 20px;
     font-weight: 600;
     font-size: 0.9rem;
-    box-shadow: 0 4px 15px rgba(172, 125, 112, 0.3);
+    box-shadow: 0 4px 15px rgba(74, 144, 164, 0.3);
 }
 
 .product-info {
@@ -662,7 +662,7 @@ body {
 
 .product-category {
     display: inline-block;
-    background: linear-gradient(135deg, #E7CEE1, #DDAC99);
+    background: linear-gradient(135deg, #B0E0E6, #87CEEB);
     color: white;
     font-size: 0.75rem;
     font-weight: 600;
@@ -671,13 +671,13 @@ body {
     padding: 6px 12px;
     border-radius: 15px;
     margin-bottom: 1rem;
-    box-shadow: 0 4px 15px rgba(231, 206, 225, 0.3);
+    box-shadow: 0 4px 15px rgba(176, 224, 230, 0.3);
     transition: all 0.3s ease;
 }
 
 .product-card:hover .product-category {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(231, 206, 225, 0.4);
+    box-shadow: 0 6px 20px rgba(176, 224, 230, 0.4);
 }
 
 .product-name {
@@ -693,7 +693,7 @@ body {
 }
 
 .product-card:hover .product-name {
-    background: linear-gradient(135deg, #AC7D70, #DDAC99);
+    background: linear-gradient(135deg, #4A90A4, #87CEEB);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -717,7 +717,7 @@ body {
     top: 0;
     bottom: 0;
     width: 3px;
-    background: linear-gradient(135deg, #E7CEE1, #DDAC99);
+    background: linear-gradient(135deg, #B0E0E6, #87CEEB);
     border-radius: 2px;
     opacity: 0.7;
 }
@@ -725,7 +725,7 @@ body {
 .btn-product {
     width: 100%;
     padding: 12px 24px;
-    background: linear-gradient(135deg, #AC7D70, #DDAC99);
+    background: linear-gradient(135deg, #4A90A4, #87CEEB);
     color: white;
     border: none;
     border-radius: 25px;
@@ -750,7 +750,7 @@ body {
 
 .btn-product:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(172, 125, 112, 0.4);
+    box-shadow: 0 8px 25px rgba(74, 144, 164, 0.4);
 }
 
 @media (max-width: 768px) {
@@ -814,7 +814,7 @@ body {
 
 .blog {
     padding: 80px 0;
-    background: #E7CEE1;
+    background: #E6F3FF;
 }
 
 .blog-container {
@@ -831,9 +831,9 @@ body {
 .blog-title {
     font-size: 3rem;
     font-weight: 700;
-    color: #AC7D70;
+    color: #4A90A4;
     margin-bottom: 0.5rem;
-    background: linear-gradient(135deg, #AC7D70, #DDAC99);
+    background: linear-gradient(135deg, #4A90A4, #87CEEB);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -864,8 +864,8 @@ body {
 
 .blog-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 15px 35px rgba(172, 125, 112, 0.2);
-    border-color: rgba(172, 125, 112, 0.3);
+    box-shadow: 0 15px 35px rgba(74, 144, 164, 0.2);
+    border-color: rgba(74, 144, 164, 0.3);
 }
 
 .blog-image {
@@ -913,7 +913,7 @@ body {
 }
 
 .blog-category {
-    background: #AC7D70;
+    background: #4A90A4;
     color: white;
     font-size: 0.6rem;
     font-weight: 500;
@@ -925,7 +925,7 @@ body {
 }
 
 .blog-category:hover {
-    background: #DDAC99;
+    background: #87CEEB;
     transform: scale(1.05);
 }
 
@@ -943,7 +943,7 @@ body {
 }
 
 .blog-card:hover .blog-post-title {
-    color: #AC7D70;
+    color: #4A90A4;
 }
 
 .blog-excerpt {
@@ -960,7 +960,7 @@ body {
 .btn-blog {
     width: 100%;
     padding: 8px 16px;
-    background: linear-gradient(135deg, #AC7D70, #DDAC99);
+    background: linear-gradient(135deg, #4A90A4, #87CEEB);
     color: white;
     border: none;
     border-radius: 20px;
@@ -973,9 +973,9 @@ body {
 }
 
 .btn-blog:hover {
-    background: linear-gradient(135deg, #DDAC99, #AC7D70);
+    background: linear-gradient(135deg, #87CEEB, #4A90A4);
     transform: translateY(-1px);
-    box-shadow: 0 6px 15px rgba(172, 125, 112, 0.4);
+    box-shadow: 0 6px 15px rgba(74, 144, 164, 0.4);
 }
 
 @media (max-width: 768px) {
@@ -1067,7 +1067,7 @@ body {
     left: 0;
     right: 0;
     height: 30px;
-    background: linear-gradient(135deg, rgba(231, 206, 225, 0.1), rgba(172, 125, 112, 0.1));
+    background: linear-gradient(135deg, rgba(173, 216, 230, 0.1), rgba(135, 206, 235, 0.1));
     z-index: 1;
 }
 
@@ -1108,9 +1108,9 @@ body {
 .footer-logo-text h3 {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #AC7D70;
+    color: #4A90A4;
     margin: 0;
-    background: linear-gradient(135deg, #AC7D70, #DDAC99);
+    background: linear-gradient(135deg, #4A90A4, #87CEEB);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -1141,7 +1141,7 @@ body {
     justify-content: center;
     width: 45px;
     height: 45px;
-    background: linear-gradient(135deg, #AC7D70, #DDAC99);
+    background: linear-gradient(135deg, #4A90A4, #87CEEB);
     border-radius: 50%;
     transition: all 0.3s ease;
     text-decoration: none;
@@ -1149,7 +1149,7 @@ body {
 
 .social-link:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(172, 125, 112, 0.4);
+    box-shadow: 0 8px 25px rgba(74, 144, 164, 0.4);
 }
 
 .social-icon {
@@ -1174,7 +1174,7 @@ body {
     left: 0;
     width: 30px;
     height: 3px;
-    background: linear-gradient(135deg, #AC7D70, #DDAC99);
+    background: linear-gradient(135deg, #4A90A4, #87CEEB);
     border-radius: 2px;
 }
 
@@ -1198,7 +1198,7 @@ body {
 }
 
 .footer-link:hover {
-    color: #AC7D70;
+    color: #4A90A4;
     padding-left: 10px;
 }
 
@@ -1218,7 +1218,7 @@ body {
     width: 20px;
     height: 20px;
     object-fit: contain;
-    filter: brightness(0) saturate(100%) invert(67%) sepia(8%) saturate(1200%) hue-rotate(315deg) brightness(95%) contrast(85%);
+    filter: brightness(0) saturate(100%) invert(50%) sepia(20%) saturate(200%) hue-rotate(180deg) brightness(90%) contrast(100%);
     margin-top: 2px;
 }
 
@@ -1231,7 +1231,7 @@ body {
 .contact-label {
     font-size: 0.8rem;
     font-weight: 600;
-    color: #AC7D70;
+    color: #4A90A4;
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
@@ -1247,7 +1247,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-top: 2rem;
-    border-top: 1px solid rgba(172, 125, 112, 0.2);
+    border-top: 1px solid rgba(74, 144, 164, 0.2);
     position: relative;
     z-index: 2;
 }
@@ -1282,23 +1282,23 @@ body {
     width: 40px;
     height: 40px;
     padding: 8px;
-    background: rgba(172, 125, 112, 0.1);
+    background: rgba(74, 144, 164, 0.1);
     border-radius: 8px;
     transition: all 0.3s ease;
-    border: 1px solid rgba(172, 125, 112, 0.2);
+    border: 1px solid rgba(74, 144, 164, 0.2);
 }
 
 .payment-icon:hover {
-    background: rgba(172, 125, 112, 0.2);
+    background: rgba(74, 144, 164, 0.2);
     transform: scale(1.1);
-    border-color: rgba(172, 125, 112, 0.4);
+    border-color: rgba(74, 144, 164, 0.4);
 }
 
 .payment-img {
     width: 24px;
     height: 24px;
     object-fit: contain;
-    filter: brightness(0) saturate(100%) invert(67%) sepia(8%) saturate(1200%) hue-rotate(315deg) brightness(95%) contrast(85%);
+    filter: brightness(0) saturate(100%) invert(50%) sepia(20%) saturate(200%) hue-rotate(180deg) brightness(90%) contrast(100%);
 }
 
 .btn-icon {
@@ -1341,7 +1341,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(172, 125, 112, 0.4));
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(74, 144, 164, 0.4));
     z-index: 2;
 }
 
@@ -1395,14 +1395,14 @@ body {
 }
 
 .btn-cta-primary {
-    background: linear-gradient(135deg, #AC7D70, #DDAC99);
+    background: linear-gradient(135deg, #4A90A4, #87CEEB);
     color: white;
-    box-shadow: 0 8px 25px rgba(172, 125, 112, 0.4);
+    box-shadow: 0 8px 25px rgba(74, 144, 164, 0.4);
 }
 
 .btn-cta-primary:hover {
     transform: translateY(-3px);
-    box-shadow: 0 12px 35px rgba(172, 125, 112, 0.6);
+    box-shadow: 0 12px 35px rgba(74, 144, 164, 0.6);
 }
 
 .btn-cta-secondary {
