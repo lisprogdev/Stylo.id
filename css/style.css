@@ -1537,28 +1537,35 @@ body {
 .contact-info-section {
     background: white;
     border-radius: 20px;
-    padding: 2rem;
+    padding: 0;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
+    min-height: 500px;
 }
 
 .contact-person {
+    position: relative;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
+    justify-content: flex-end;
 }
 
 .person-photo {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
-    border: 4px solid #4A90A4;
-    box-shadow: 0 8px 25px rgba(74, 144, 164, 0.3);
+    border-radius: 20px;
 }
 
 .person-img {
@@ -1573,31 +1580,37 @@ body {
 }
 
 .person-details {
+    position: relative;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 15px;
+    margin: 1rem;
+    backdrop-filter: blur(10px);
     text-align: center;
 }
 
 .person-name {
     font-size: 1.8rem;
     font-weight: 700;
-    color: #4A90A4;
+    color: white;
     margin-bottom: 0.5rem;
-    background: linear-gradient(135deg, #4A90A4, #87CEEB);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .person-nim {
     font-size: 1.1rem;
-    color: #666;
+    color: rgba(255, 255, 255, 0.9);
     margin-bottom: 0.5rem;
     font-weight: 500;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .person-class {
     font-size: 1rem;
-    color: #888;
+    color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .contact-form-section {
